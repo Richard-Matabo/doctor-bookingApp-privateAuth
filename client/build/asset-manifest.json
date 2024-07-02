@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MERN-Auth-App/static/css/main.1ca8c4f2.css",
+    "main.js": "/MERN-Auth-App/static/js/main.df4442d1.js",
+    "index.html": "/MERN-Auth-App/index.html",
+    "main.1ca8c4f2.css.map": "/MERN-Auth-App/static/css/main.1ca8c4f2.css.map",
+    "main.df4442d1.js.map": "/MERN-Auth-App/static/js/main.df4442d1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ca8c4f2.css",
+    "static/js/main.df4442d1.js"
+  ]
+}

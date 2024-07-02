@@ -1,0 +1,194 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* src/App.css */
+body{
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+  background-image: url('https://wallpapercave.com/wp/wp2655106.jpg');
+}
+header{
+  background-color: #4CAF50;
+  padding: 2px;
+}
+.container-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  color: #f1f1f1;
+}
+header a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px;
+}
+header a:hover {
+  opacity: calc(0.8);
+}
+header p{
+  margin-left: 80px;
+}
+.log-link{
+  margin-right: 15px;
+}
+nav div button{
+  padding: 5px 15px;
+  border-radius: 3px;
+  border: none;
+  margin-right: 25px;
+}
+.App-header {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  box-shadow: #82918c 0 0 25px 0;
+  border-radius: 90px 0 90px 0;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 180px;
+  margin-right: 180px;
+  padding: 1em;
+/*         */
+  background-image: url('https://marketplace.canva.com/EAE04eMJ7BA/1/0/1600w/canva-pink-simple-creative-and-professional-medical-home-logo-design-template-9S6RviHtv20.jpg');
+  background-size: contain;
+}
+.header{
+  background-image: url('https://wallpapercave.com/wp/wp2655106.jpg');
+  padding: 3em;
+  background-size: cover;
+}
+.App-header p{
+  width: 60%;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  z-index: -1;
+  margin-top: 95px;
+}
+.bookApp{
+  padding: 1em;
+  color: #333;
+  margin-left: 90px;
+}
+.bookApp form{
+  border: 1px solid #c7c6c6;
+  padding: 2em;
+  width: 56%;
+  border-radius: 5px;
+  box-shadow: #a5b8b2 0 0 3px 0;
+  border: solid #f3f7f5;
+}
+.edit-booking {
+  margin-left: 100px;
+  margin-bottom: 25px;
+  width: 88%;
+}
+.edit-booking form{
+  border: 1px solid #c7c6c6;
+  padding: 2em;
+  border-radius: 5px;
+  box-shadow: #a5b8b2 0 0 3px 0;
+  border: solid #f3f7f5;
+}
+.edit-booking button{
+  padding: 5px 30px;
+  margin: 3px;
+  cursor: pointer;
+  color: #333;
+}
+.edit-booking button:hover{
+  opacity: calc(0.8);
+}
+.bookApp input, .edit-booking input{
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #c7c6c6;
+  border-radius: 5px;
+}
+.bookApp button{
+  background-color: #4CAF50;
+  padding: 10px;
+  border: 1px solid #4CAF50;
+  border-radius: 3px;
+  color: whitesmoke;
+}
+.Appointments{
+  color: #333;
+  margin-left: 60px;
+  margin-top: 15px;
+}
+.Appointments span, h5{
+  margin-left: 45px;
+}
+.Appointments span, .bookApp span, 
+.edit-booking span{
+  font-size: 26px;
+}
+.Appointments button{
+  padding: 5px 20px;
+  margin: 3px;
+  cursor: pointer;
+  color: #333;
+}
+.Appointments button:hover{
+  opacity: calc(0.8);
+}
+
+form.signup, form.login {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+
+}
+.login-page, .signup-page {  
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px 20px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: #a5b8b2 0 0 30px 0;
+}
+.login-page div{
+  padding: 2em;
+  border-radius: 5px;
+  box-shadow: #a5b8b2 0 0 3px 0;
+}
+.login-page input, .signup-page input{
+  border: 1px solid #b8b6b6;
+  padding: 7px;
+  border-radius: 5px;
+  width: 250px;
+}
+.login-page button, .signup-page button{
+  margin-top: 20px;
+  background-color: #4CAF50;
+  padding: 10px 20px;
+  border: 1px solid #4CAF50;
+  border-radius: 3px;
+  color: whitesmoke;
+}
+.Appointments li {
+  padding: 10px;  
+  border-radius: 5px;  
+  margin-left: 5px;
+  margin-bottom: 25px;
+  list-style: none;
+  box-shadow: #98a8a3 0 0 3px 0;
+  width: 360px;
+  height: 180px;  
+  float: left;
+  border: solid #f3f7f5;
+}
+button {
+  cursor: pointer;
+}
+button:hover{
+  opacity: calc(0.8);
+}
